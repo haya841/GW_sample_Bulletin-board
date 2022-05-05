@@ -1,0 +1,23 @@
+{
+  "name": "gw_1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "mathjs": "^10.5.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

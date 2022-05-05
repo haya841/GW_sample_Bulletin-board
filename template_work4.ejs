@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>投稿フォーム</title>
+    </head>
+    <body>
+        <ul>
+            <% for (const listItem of listItems) {%>
+                <li><%= listItem %></li>
+            <% } %>
+        </ul>
+        <form method="post" action="/send">
+            <input placeholder="内容"  name="m">
+            <button>投稿</button>
+        </form>
+    </body>
+</html>
